@@ -1,0 +1,10 @@
+^C:\USERS\CDOWN\DOCUMENTS\CSCE 441\ASSIGNMENTS\A2\BUILD\CMAKEFILES\426706D519D454C34D201FC152B4D283\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-SC:/Users/cdown/Documents/CSCE 441/Assignments/A2" "-BC:/Users/cdown/Documents/CSCE 441/Assignments/A2/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/cdown/Documents/CSCE 441/Assignments/A2/build/A2.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
