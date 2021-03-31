@@ -1,5 +1,2 @@
-Cole Downey
-Highest task: 6
-Notes: 
-Be sure to specify the resources directory in command line arguments
-For any component, press 'r' to reset rotation
+# OpenGL A2 - Hierarchical Transforms
+In this project, I created a hierarchical robot figure with components that respond to keyboard inputs to change their rotations
